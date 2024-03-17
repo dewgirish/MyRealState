@@ -19,7 +19,7 @@ import {
   signOutUserStart,
   signOutUsersuccess,
   signOutUserFail,
-} from "../redux/user/userslice";
+} from "../redux/user/userSlice";
 import { set } from "mongoose";
 
 export default function Profile() {
